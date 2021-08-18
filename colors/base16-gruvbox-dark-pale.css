@@ -104,3 +104,7 @@
 .workspace-split.mod-right-split .workspace-tabs .workspace-leaf {
     border-top-right-radius: 0;
 }
+
+.suggestion-item.is-selected {
+    background-color: var(--background-primary-alt);
+}
