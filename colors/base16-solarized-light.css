@@ -1,0 +1,106 @@
+/* Base16 Solarized Light
+ * Scheme author: Ethan Schoonover (modified by aramisgithub)
+ * Obsidian theme author: acidghost (https://github.com/acidghost)
+ */
+
+:root {
+    --font-monospace: 'Hack Nerd Font', 'Source Code Pro', monospace;
+}
+
+.theme-dark {
+    --background-primary: #fdf6e3;
+    --background-primary-alt: #eee8d5;
+    --background-secondary: #fdf6e3;
+    --background-secondary-alt: #eee8d5;
+    --background-modifier-border: #839496;
+    --background-modifier-form-field: rgba(0, 0, 0, 0.3);
+    --background-modifier-form-field-highlighted: rgba(0, 0, 0, 0.22);
+    --background-modifier-box-shadow: rgba(0, 0, 0, 0.3);
+    --background-modifier-success: #859900;
+    --background-modifier-error: #dc322f;
+    --background-modifier-error-rgb: 220, 50, 47;
+    /* --background-modifier-error-hover: #470000; */
+    --background-modifier-cover: rgba(0, 0, 0, 0.8);
+    --text-accent: #d33682;
+    --text-accent-hover: #268bd2;
+    --text-normal: #002b36;
+    --text-muted: #586e75;
+    --text-muted-rgb: 88, 110, 117;
+    --text-faint: #839496;
+    --text-error: #6c71c4;
+    --text-error-hover: #dc322f;
+    --text-highlight-bg: rgba(255, 255, 0, 0.4);
+    --text-highlight-bg-active: rgba(255, 128, 0, 0.4);
+    --text-selection: rgba(23, 48, 77, 0.99);
+    --text-on-accent: #dcddde;
+    --interactive-normal: #2a2a2a;
+    --interactive-hover: #303030;
+    --interactive-accent: #d33682;
+    --interactive-accent-rgb: 211, 54, 130;
+    --interactive-accent-hover: #6c71c4;
+    --interactive-success: #197300;
+    --scrollbar-active-thumb-bg: rgba(255, 255, 255, 0.1);
+    --scrollbar-bg: rgba(255, 255, 255, 0.05);
+    --scrollbar-thumb-bg: rgba(255, 255, 255, 0.1);
+    --highlight-mix-blend-mode: lighten;
+}
+
+.CodeMirror-lines {
+    font-family: var(--font-monospace);
+}
+
+.graph-view.color-fill,
+.graph-view.color-circle,
+.graph-view.color-line,
+.graph-view.color-text,
+.graph-view.color-arrow {
+    color: var(--text-accent);
+}
+
+.graph-view.color-fill-highlight,
+.graph-view.color-line-highlight {
+    color: var(--text-accent-hover);
+}
+
+.graph-view.color-fill-unresolved {
+    color: #600;
+}
+
+.workspace-tabs .workspace-leaf {
+    background-color: var(--background-primary);
+}
+
+.workspace-tab-header-container {
+    background-color: var(--background-primary);
+}
+
+.workspace-tab-header.is-active {
+    background-color: var(--background-primary);
+    color: var(--text-accent);
+}
+
+.workspace-tab-header.is-after-active .workspace-tab-header-inner,
+.workspace-tab-header.is-before-active .workspace-tab-header-inner {
+    background-color: var(--background-primary);
+}
+
+.workspace-tab-container-before.is-before-active .workspace-tab-header-inner,
+.workspace-tab-container-after.is-after-active .workspace-tab-header-inner,
+.workspace-tab-header.is-before-active .workspace-tab-header-inner,
+.workspace-tab-header.is-after-active .workspace-tab-header-inner {
+    background-color: var(--background-primary);
+}
+
+.workspace-split.mod-root > .workspace-leaf:last-of-type .workspace-leaf-content {
+    border-top-right-radius: 0;
+}
+.workspace-split.mod-root > .workspace-leaf:first-of-type .workspace-leaf-content {
+    border-top-left-radius: 0;
+}
+
+.workspace-split.mod-left-split .workspace-tabs .workspace-leaf {
+    border-top-left-radius: 0;
+}
+.workspace-split.mod-right-split .workspace-tabs .workspace-leaf {
+    border-top-right-radius: 0;
+}
