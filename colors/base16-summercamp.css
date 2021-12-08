@@ -21,13 +21,13 @@
     --background-modifier-error-rgb: 227, 81, 66;
     /* --background-modifier-error-hover: #470000; */
     --background-modifier-cover: rgba(0, 0, 0, 0.8);
-    --text-accent: #f69be7;
+    --text-accent: #F69BE7;
     --text-accent-hover: #489bf0;
     --text-normal: #f8f5de;
     --text-muted: #736e55;
     --text-muted-rgb: 115, 110, 85;
     --text-faint: #504b38;
-    --text-error: #ff8080;
+    --text-error: #FF8080;
     --text-error-hover: #e35142;
     --text-highlight-bg: rgba(255, 255, 0, 0.4);
     --text-highlight-bg-active: rgba(255, 128, 0, 0.4);
@@ -35,9 +35,9 @@
     --text-on-accent: #dcddde;
     --interactive-normal: #2a2a2a;
     --interactive-hover: #303030;
-    --interactive-accent: #f69be7;
+    --interactive-accent: #F69BE7;
     --interactive-accent-rgb: 246, 155, 231;
-    --interactive-accent-hover: #ff8080;
+    --interactive-accent-hover: #FF8080;
     --interactive-success: #197300;
     --scrollbar-active-thumb-bg: rgba(255, 255, 255, 0.1);
     --scrollbar-bg: rgba(255, 255, 255, 0.05);
@@ -107,4 +107,12 @@
 
 .suggestion-item.is-selected {
     background-color: var(--background-primary-alt);
+}
+
+.markdown-preview-view.is-readable-line-width .markdown-preview-sizer {
+    max-width: 900px;
+}
+
+.markdown-source-view.is-readable-line-width .CodeMirror {
+    max-width: 900px;
 }

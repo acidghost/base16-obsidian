@@ -8,36 +8,36 @@
 }
 
 .theme-dark {
-    --background-primary: #282b35;
-    --background-primary-alt: #3d4048;
-    --background-secondary: #282b35;
-    --background-secondary-alt: #3d4048;
-    --background-modifier-border: #686a71;
+    --background-primary: #282B35;
+    --background-primary-alt: #3D4048;
+    --background-secondary: #282B35;
+    --background-secondary-alt: #3D4048;
+    --background-modifier-border: #686A71;
     --background-modifier-form-field: rgba(0, 0, 0, 0.3);
     --background-modifier-form-field-highlighted: rgba(0, 0, 0, 0.22);
     --background-modifier-box-shadow: rgba(0, 0, 0, 0.3);
-    --background-modifier-success: #df0002;
-    --background-modifier-error: #b21889;
+    --background-modifier-success: #DF0002;
+    --background-modifier-error: #B21889;
     --background-modifier-error-rgb: 178, 24, 137;
     /* --background-modifier-error-hover: #470000; */
     --background-modifier-cover: rgba(0, 0, 0, 0.8);
-    --text-accent: #c77c48;
-    --text-accent-hover: #790ead;
-    --text-normal: #bebfc2;
+    --text-accent: #C77C48;
+    --text-accent-hover: #790EAD;
+    --text-normal: #BEBFC2;
     --text-muted: #939599;
     --text-muted-rgb: 147, 149, 153;
-    --text-faint: #686a71;
-    --text-error: #b21889;
-    --text-error-hover: #b21889;
+    --text-faint: #686A71;
+    --text-error: #B21889;
+    --text-error-hover: #B21889;
     --text-highlight-bg: rgba(255, 255, 0, 0.4);
     --text-highlight-bg-active: rgba(255, 128, 0, 0.4);
     --text-selection: rgba(23, 48, 77, 0.99);
     --text-on-accent: #dcddde;
     --interactive-normal: #2a2a2a;
     --interactive-hover: #303030;
-    --interactive-accent: #c77c48;
+    --interactive-accent: #C77C48;
     --interactive-accent-rgb: 199, 124, 72;
-    --interactive-accent-hover: #b21889;
+    --interactive-accent-hover: #B21889;
     --interactive-success: #197300;
     --scrollbar-active-thumb-bg: rgba(255, 255, 255, 0.1);
     --scrollbar-bg: rgba(255, 255, 255, 0.05);
@@ -107,4 +107,12 @@
 
 .suggestion-item.is-selected {
     background-color: var(--background-primary-alt);
+}
+
+.markdown-preview-view.is-readable-line-width .markdown-preview-sizer {
+    max-width: 900px;
+}
+
+.markdown-source-view.is-readable-line-width .CodeMirror {
+    max-width: 900px;
 }

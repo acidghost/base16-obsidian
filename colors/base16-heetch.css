@@ -12,23 +12,23 @@
     --background-primary-alt: #392551;
     --background-secondary: #190134;
     --background-secondary-alt: #392551;
-    --background-modifier-border: #7b6d8b;
+    --background-modifier-border: #7B6D8B;
     --background-modifier-form-field: rgba(0, 0, 0, 0.3);
     --background-modifier-form-field-highlighted: rgba(0, 0, 0, 0.22);
     --background-modifier-box-shadow: rgba(0, 0, 0, 0.3);
-    --background-modifier-success: #c33678;
-    --background-modifier-error: #27d9d5;
+    --background-modifier-success: #C33678;
+    --background-modifier-error: #27D9D5;
     --background-modifier-error-rgb: 39, 217, 213;
     /* --background-modifier-error-hover: #470000; */
     --background-modifier-cover: rgba(0, 0, 0, 0.8);
     --text-accent: #470546;
-    --text-accent-hover: #bd0152;
-    --text-normal: #feffff;
-    --text-muted: #bdb6c5;
+    --text-accent-hover: #BD0152;
+    --text-normal: #FEFFFF;
+    --text-muted: #BDB6C5;
     --text-muted-rgb: 189, 182, 197;
-    --text-faint: #7b6d8b;
-    --text-error: #82034c;
-    --text-error-hover: #27d9d5;
+    --text-faint: #7B6D8B;
+    --text-error: #82034C;
+    --text-error-hover: #27D9D5;
     --text-highlight-bg: rgba(255, 255, 0, 0.4);
     --text-highlight-bg-active: rgba(255, 128, 0, 0.4);
     --text-selection: rgba(23, 48, 77, 0.99);
@@ -37,7 +37,7 @@
     --interactive-hover: #303030;
     --interactive-accent: #470546;
     --interactive-accent-rgb: 71, 5, 70;
-    --interactive-accent-hover: #82034c;
+    --interactive-accent-hover: #82034C;
     --interactive-success: #197300;
     --scrollbar-active-thumb-bg: rgba(255, 255, 255, 0.1);
     --scrollbar-bg: rgba(255, 255, 255, 0.05);
@@ -107,4 +107,12 @@
 
 .suggestion-item.is-selected {
     background-color: var(--background-primary-alt);
+}
+
+.markdown-preview-view.is-readable-line-width .markdown-preview-sizer {
+    max-width: 900px;
+}
+
+.markdown-source-view.is-readable-line-width .CodeMirror {
+    max-width: 900px;
 }

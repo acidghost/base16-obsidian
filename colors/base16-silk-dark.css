@@ -9,9 +9,9 @@
 
 .theme-dark {
     --background-primary: #0e3c46;
-    --background-primary-alt: #1d494e;
+    --background-primary-alt: #1D494E;
     --background-secondary: #0e3c46;
-    --background-secondary-alt: #1d494e;
+    --background-secondary-alt: #1D494E;
     --background-modifier-border: #587073;
     --background-modifier-form-field: rgba(0, 0, 0, 0.3);
     --background-modifier-form-field-highlighted: rgba(0, 0, 0, 0.22);
@@ -23,8 +23,8 @@
     --background-modifier-cover: rgba(0, 0, 0, 0.8);
     --text-accent: #9b647b;
     --text-accent-hover: #46bddd;
-    --text-normal: #d2faff;
-    --text-muted: #c7dbdd;
+    --text-normal: #D2FAFF;
+    --text-muted: #C7DBDD;
     --text-muted-rgb: 199, 219, 221;
     --text-faint: #587073;
     --text-error: #756b8a;
@@ -107,4 +107,12 @@
 
 .suggestion-item.is-selected {
     background-color: var(--background-primary-alt);
+}
+
+.markdown-preview-view.is-readable-line-width .markdown-preview-sizer {
+    max-width: 900px;
+}
+
+.markdown-source-view.is-readable-line-width .CodeMirror {
+    max-width: 900px;
 }

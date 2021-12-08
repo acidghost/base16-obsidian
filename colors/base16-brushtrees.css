@@ -8,11 +8,11 @@
 }
 
 .theme-dark {
-    --background-primary: #e3efef;
-    --background-primary-alt: #c9dbdc;
-    --background-secondary: #e3efef;
-    --background-secondary-alt: #c9dbdc;
-    --background-modifier-border: #98afb5;
+    --background-primary: #E3EFEF;
+    --background-primary-alt: #C9DBDC;
+    --background-secondary: #E3EFEF;
+    --background-secondary-alt: #C9DBDC;
+    --background-modifier-border: #98AFB5;
     --background-modifier-form-field: rgba(0, 0, 0, 0.3);
     --background-modifier-form-field-highlighted: rgba(0, 0, 0, 0.22);
     --background-modifier-box-shadow: rgba(0, 0, 0, 0.3);
@@ -24,9 +24,9 @@
     --text-accent: #b39f9f;
     --text-accent-hover: #868cb3;
     --text-normal: #485867;
-    --text-muted: #6d828e;
+    --text-muted: #6D828E;
     --text-muted-rgb: 109, 130, 142;
-    --text-faint: #98afb5;
+    --text-faint: #98AFB5;
     --text-error: #b386b2;
     --text-error-hover: #b38686;
     --text-highlight-bg: rgba(255, 255, 0, 0.4);
@@ -107,4 +107,12 @@
 
 .suggestion-item.is-selected {
     background-color: var(--background-primary-alt);
+}
+
+.markdown-preview-view.is-readable-line-width .markdown-preview-sizer {
+    max-width: 900px;
+}
+
+.markdown-source-view.is-readable-line-width .CodeMirror {
+    max-width: 900px;
 }

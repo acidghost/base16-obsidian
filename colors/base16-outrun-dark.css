@@ -8,36 +8,36 @@
 }
 
 .theme-dark {
-    --background-primary: #00002a;
-    --background-primary-alt: #20204a;
-    --background-secondary: #00002a;
-    --background-secondary-alt: #20204a;
-    --background-modifier-border: #50507a;
+    --background-primary: #00002A;
+    --background-primary-alt: #20204A;
+    --background-secondary: #00002A;
+    --background-secondary-alt: #20204A;
+    --background-modifier-border: #50507A;
     --background-modifier-form-field: rgba(0, 0, 0, 0.3);
     --background-modifier-form-field-highlighted: rgba(0, 0, 0, 0.22);
     --background-modifier-box-shadow: rgba(0, 0, 0, 0.3);
-    --background-modifier-success: #59f176;
-    --background-modifier-error: #ff4242;
+    --background-modifier-success: #59F176;
+    --background-modifier-error: #FF4242;
     --background-modifier-error-rgb: 255, 66, 66;
     /* --background-modifier-error-hover: #470000; */
     --background-modifier-cover: rgba(0, 0, 0, 0.8);
-    --text-accent: #f003ef;
-    --text-accent-hover: #66b0ff;
-    --text-normal: #f5f5ff;
-    --text-muted: #d0d0fa;
+    --text-accent: #F003EF;
+    --text-accent-hover: #66B0FF;
+    --text-normal: #F5F5FF;
+    --text-muted: #D0D0FA;
     --text-muted-rgb: 208, 208, 250;
-    --text-faint: #50507a;
-    --text-error: #f10596;
-    --text-error-hover: #ff4242;
+    --text-faint: #50507A;
+    --text-error: #F10596;
+    --text-error-hover: #FF4242;
     --text-highlight-bg: rgba(255, 255, 0, 0.4);
     --text-highlight-bg-active: rgba(255, 128, 0, 0.4);
     --text-selection: rgba(23, 48, 77, 0.99);
     --text-on-accent: #dcddde;
     --interactive-normal: #2a2a2a;
     --interactive-hover: #303030;
-    --interactive-accent: #f003ef;
+    --interactive-accent: #F003EF;
     --interactive-accent-rgb: 240, 3, 239;
-    --interactive-accent-hover: #f10596;
+    --interactive-accent-hover: #F10596;
     --interactive-success: #197300;
     --scrollbar-active-thumb-bg: rgba(255, 255, 255, 0.1);
     --scrollbar-bg: rgba(255, 255, 255, 0.05);
@@ -107,4 +107,12 @@
 
 .suggestion-item.is-selected {
     background-color: var(--background-primary-alt);
+}
+
+.markdown-preview-view.is-readable-line-width .markdown-preview-sizer {
+    max-width: 900px;
+}
+
+.markdown-source-view.is-readable-line-width .CodeMirror {
+    max-width: 900px;
 }

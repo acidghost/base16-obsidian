@@ -9,35 +9,35 @@
 
 .theme-dark {
     --background-primary: #263238;
-    --background-primary-alt: #2c393f;
+    --background-primary-alt: #2C393F;
     --background-secondary: #263238;
-    --background-secondary-alt: #2c393f;
+    --background-secondary-alt: #2C393F;
     --background-modifier-border: #707880;
     --background-modifier-form-field: rgba(0, 0, 0, 0.3);
     --background-modifier-form-field-highlighted: rgba(0, 0, 0, 0.22);
     --background-modifier-box-shadow: rgba(0, 0, 0, 0.3);
-    --background-modifier-success: #8bd649;
-    --background-modifier-error: #ec5f67;
+    --background-modifier-success: #8BD649;
+    --background-modifier-error: #EC5F67;
     --background-modifier-error-rgb: 236, 95, 103;
     /* --background-modifier-error-hover: #470000; */
     --background-modifier-cover: rgba(0, 0, 0, 0.8);
-    --text-accent: #ec5f67;
-    --text-accent-hover: #89ddff;
-    --text-normal: #ffffff;
-    --text-muted: #cdd3de;
+    --text-accent: #EC5F67;
+    --text-accent-hover: #89DDFF;
+    --text-normal: #FFFFFF;
+    --text-muted: #CDD3DE;
     --text-muted-rgb: 205, 211, 222;
     --text-faint: #707880;
-    --text-error: #82aaff;
-    --text-error-hover: #ec5f67;
+    --text-error: #82AAFF;
+    --text-error-hover: #EC5F67;
     --text-highlight-bg: rgba(255, 255, 0, 0.4);
     --text-highlight-bg-active: rgba(255, 128, 0, 0.4);
     --text-selection: rgba(23, 48, 77, 0.99);
     --text-on-accent: #dcddde;
     --interactive-normal: #2a2a2a;
     --interactive-hover: #303030;
-    --interactive-accent: #ec5f67;
+    --interactive-accent: #EC5F67;
     --interactive-accent-rgb: 236, 95, 103;
-    --interactive-accent-hover: #82aaff;
+    --interactive-accent-hover: #82AAFF;
     --interactive-success: #197300;
     --scrollbar-active-thumb-bg: rgba(255, 255, 255, 0.1);
     --scrollbar-bg: rgba(255, 255, 255, 0.05);
@@ -107,4 +107,12 @@
 
 .suggestion-item.is-selected {
     background-color: var(--background-primary-alt);
+}
+
+.markdown-preview-view.is-readable-line-width .markdown-preview-sizer {
+    max-width: 900px;
+}
+
+.markdown-source-view.is-readable-line-width .CodeMirror {
+    max-width: 900px;
 }

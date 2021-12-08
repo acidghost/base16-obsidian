@@ -21,7 +21,7 @@
     --background-modifier-error-rgb: 132, 0, 0;
     /* --background-modifier-error-hover: #470000; */
     --background-modifier-cover: rgba(0, 0, 0, 0.8);
-    --text-accent: #755b00;
+    --text-accent: #755B00;
     --text-accent-hover: #007300;
     --text-normal: #c4d9c4;
     --text-muted: #000000;
@@ -35,7 +35,7 @@
     --text-on-accent: #dcddde;
     --interactive-normal: #2a2a2a;
     --interactive-hover: #303030;
-    --interactive-accent: #755b00;
+    --interactive-accent: #755B00;
     --interactive-accent-rgb: 117, 91, 0;
     --interactive-accent-hover: #000090;
     --interactive-success: #197300;
@@ -107,4 +107,12 @@
 
 .suggestion-item.is-selected {
     background-color: var(--background-primary-alt);
+}
+
+.markdown-preview-view.is-readable-line-width .markdown-preview-sizer {
+    max-width: 900px;
+}
+
+.markdown-source-view.is-readable-line-width .CodeMirror {
+    max-width: 900px;
 }

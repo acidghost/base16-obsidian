@@ -8,9 +8,9 @@
 }
 
 .theme-dark {
-    --background-primary: #3b3228;
+    --background-primary: #3B3228;
     --background-primary-alt: #534636;
-    --background-secondary: #3b3228;
+    --background-secondary: #3B3228;
     --background-secondary-alt: #534636;
     --background-modifier-border: #7e705a;
     --background-modifier-form-field: rgba(0, 0, 0, 0.3);
@@ -107,4 +107,12 @@
 
 .suggestion-item.is-selected {
     background-color: var(--background-primary-alt);
+}
+
+.markdown-preview-view.is-readable-line-width .markdown-preview-sizer {
+    max-width: 900px;
+}
+
+.markdown-source-view.is-readable-line-width .CodeMirror {
+    max-width: 900px;
 }

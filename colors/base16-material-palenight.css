@@ -8,36 +8,36 @@
 }
 
 .theme-dark {
-    --background-primary: #292d3e;
+    --background-primary: #292D3E;
     --background-primary-alt: #444267;
-    --background-secondary: #292d3e;
+    --background-secondary: #292D3E;
     --background-secondary-alt: #444267;
-    --background-modifier-border: #676e95;
+    --background-modifier-border: #676E95;
     --background-modifier-form-field: rgba(0, 0, 0, 0.3);
     --background-modifier-form-field-highlighted: rgba(0, 0, 0, 0.22);
     --background-modifier-box-shadow: rgba(0, 0, 0, 0.3);
-    --background-modifier-success: #c3e88d;
-    --background-modifier-error: #f07178;
+    --background-modifier-success: #C3E88D;
+    --background-modifier-error: #F07178;
     --background-modifier-error-rgb: 240, 113, 120;
     /* --background-modifier-error-hover: #470000; */
     --background-modifier-cover: rgba(0, 0, 0, 0.8);
-    --text-accent: #ff5370;
-    --text-accent-hover: #82aaff;
-    --text-normal: #ffffff;
-    --text-muted: #959dcb;
+    --text-accent: #FF5370;
+    --text-accent-hover: #82AAFF;
+    --text-normal: #FFFFFF;
+    --text-muted: #959DCB;
     --text-muted-rgb: 149, 157, 203;
-    --text-faint: #676e95;
-    --text-error: #c792ea;
-    --text-error-hover: #f07178;
+    --text-faint: #676E95;
+    --text-error: #C792EA;
+    --text-error-hover: #F07178;
     --text-highlight-bg: rgba(255, 255, 0, 0.4);
     --text-highlight-bg-active: rgba(255, 128, 0, 0.4);
     --text-selection: rgba(23, 48, 77, 0.99);
     --text-on-accent: #dcddde;
     --interactive-normal: #2a2a2a;
     --interactive-hover: #303030;
-    --interactive-accent: #ff5370;
+    --interactive-accent: #FF5370;
     --interactive-accent-rgb: 255, 83, 112;
-    --interactive-accent-hover: #c792ea;
+    --interactive-accent-hover: #C792EA;
     --interactive-success: #197300;
     --scrollbar-active-thumb-bg: rgba(255, 255, 255, 0.1);
     --scrollbar-bg: rgba(255, 255, 255, 0.05);
@@ -107,4 +107,12 @@
 
 .suggestion-item.is-selected {
     background-color: var(--background-primary-alt);
+}
+
+.markdown-preview-view.is-readable-line-width .markdown-preview-sizer {
+    max-width: 900px;
+}
+
+.markdown-source-view.is-readable-line-width .CodeMirror {
+    max-width: 900px;
 }

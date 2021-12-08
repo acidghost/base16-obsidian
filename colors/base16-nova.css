@@ -8,36 +8,36 @@
 }
 
 .theme-dark {
-    --background-primary: #3c4c55;
+    --background-primary: #3C4C55;
     --background-primary-alt: #556873;
-    --background-secondary: #3c4c55;
+    --background-secondary: #3C4C55;
     --background-secondary-alt: #556873;
-    --background-modifier-border: #899ba6;
+    --background-modifier-border: #899BA6;
     --background-modifier-form-field: rgba(0, 0, 0, 0.3);
     --background-modifier-form-field-highlighted: rgba(0, 0, 0, 0.22);
     --background-modifier-box-shadow: rgba(0, 0, 0, 0.3);
-    --background-modifier-success: #7fc1ca;
-    --background-modifier-error: #83afe5;
+    --background-modifier-success: #7FC1CA;
+    --background-modifier-error: #83AFE5;
     --background-modifier-error-rgb: 131, 175, 229;
     /* --background-modifier-error-hover: #470000; */
     --background-modifier-cover: rgba(0, 0, 0, 0.8);
-    --text-accent: #f2c38f;
-    --text-accent-hover: #83afe5;
+    --text-accent: #F2C38F;
+    --text-accent-hover: #83AFE5;
     --text-normal: #556873;
-    --text-muted: #c5d4dd;
+    --text-muted: #C5D4DD;
     --text-muted-rgb: 197, 212, 221;
-    --text-faint: #899ba6;
-    --text-error: #9a93e1;
-    --text-error-hover: #83afe5;
+    --text-faint: #899BA6;
+    --text-error: #9A93E1;
+    --text-error-hover: #83AFE5;
     --text-highlight-bg: rgba(255, 255, 0, 0.4);
     --text-highlight-bg-active: rgba(255, 128, 0, 0.4);
     --text-selection: rgba(23, 48, 77, 0.99);
     --text-on-accent: #dcddde;
     --interactive-normal: #2a2a2a;
     --interactive-hover: #303030;
-    --interactive-accent: #f2c38f;
+    --interactive-accent: #F2C38F;
     --interactive-accent-rgb: 242, 195, 143;
-    --interactive-accent-hover: #9a93e1;
+    --interactive-accent-hover: #9A93E1;
     --interactive-success: #197300;
     --scrollbar-active-thumb-bg: rgba(255, 255, 255, 0.1);
     --scrollbar-bg: rgba(255, 255, 255, 0.05);
@@ -107,4 +107,12 @@
 
 .suggestion-item.is-selected {
     background-color: var(--background-primary-alt);
+}
+
+.markdown-preview-view.is-readable-line-width .markdown-preview-sizer {
+    max-width: 900px;
+}
+
+.markdown-source-view.is-readable-line-width .CodeMirror {
+    max-width: 900px;
 }

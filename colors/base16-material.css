@@ -9,35 +9,35 @@
 
 .theme-dark {
     --background-primary: #263238;
-    --background-primary-alt: #2e3c43;
+    --background-primary-alt: #2E3C43;
     --background-secondary: #263238;
-    --background-secondary-alt: #2e3c43;
-    --background-modifier-border: #546e7a;
+    --background-secondary-alt: #2E3C43;
+    --background-modifier-border: #546E7A;
     --background-modifier-form-field: rgba(0, 0, 0, 0.3);
     --background-modifier-form-field-highlighted: rgba(0, 0, 0, 0.22);
     --background-modifier-box-shadow: rgba(0, 0, 0, 0.3);
-    --background-modifier-success: #c3e88d;
-    --background-modifier-error: #f07178;
+    --background-modifier-success: #C3E88D;
+    --background-modifier-error: #F07178;
     --background-modifier-error-rgb: 240, 113, 120;
     /* --background-modifier-error-hover: #470000; */
     --background-modifier-cover: rgba(0, 0, 0, 0.8);
-    --text-accent: #ff5370;
-    --text-accent-hover: #82aaff;
-    --text-normal: #ffffff;
-    --text-muted: #eeffff;
+    --text-accent: #FF5370;
+    --text-accent-hover: #82AAFF;
+    --text-normal: #FFFFFF;
+    --text-muted: #EEFFFF;
     --text-muted-rgb: 238, 255, 255;
-    --text-faint: #546e7a;
-    --text-error: #c792ea;
-    --text-error-hover: #f07178;
+    --text-faint: #546E7A;
+    --text-error: #C792EA;
+    --text-error-hover: #F07178;
     --text-highlight-bg: rgba(255, 255, 0, 0.4);
     --text-highlight-bg-active: rgba(255, 128, 0, 0.4);
     --text-selection: rgba(23, 48, 77, 0.99);
     --text-on-accent: #dcddde;
     --interactive-normal: #2a2a2a;
     --interactive-hover: #303030;
-    --interactive-accent: #ff5370;
+    --interactive-accent: #FF5370;
     --interactive-accent-rgb: 255, 83, 112;
-    --interactive-accent-hover: #c792ea;
+    --interactive-accent-hover: #C792EA;
     --interactive-success: #197300;
     --scrollbar-active-thumb-bg: rgba(255, 255, 255, 0.1);
     --scrollbar-bg: rgba(255, 255, 255, 0.05);
@@ -107,4 +107,12 @@
 
 .suggestion-item.is-selected {
     background-color: var(--background-primary-alt);
+}
+
+.markdown-preview-view.is-readable-line-width .markdown-preview-sizer {
+    max-width: 900px;
+}
+
+.markdown-source-view.is-readable-line-width .CodeMirror {
+    max-width: 900px;
 }

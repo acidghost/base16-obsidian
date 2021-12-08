@@ -9,9 +9,9 @@
 
 .theme-dark {
     --background-primary: #000000;
-    --background-primary-alt: #1c1c1c;
+    --background-primary-alt: #1C1C1C;
     --background-secondary: #000000;
-    --background-secondary-alt: #1c1c1c;
+    --background-secondary-alt: #1C1C1C;
     --background-modifier-border: #545454;
     --background-modifier-form-field: rgba(0, 0, 0, 0.3);
     --background-modifier-form-field-highlighted: rgba(0, 0, 0, 0.22);
@@ -107,4 +107,12 @@
 
 .suggestion-item.is-selected {
     background-color: var(--background-primary-alt);
+}
+
+.markdown-preview-view.is-readable-line-width .markdown-preview-sizer {
+    max-width: 900px;
+}
+
+.markdown-source-view.is-readable-line-width .CodeMirror {
+    max-width: 900px;
 }

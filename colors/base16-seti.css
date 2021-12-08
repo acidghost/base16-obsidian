@@ -12,12 +12,12 @@
     --background-primary-alt: #282a2b;
     --background-secondary: #151718;
     --background-secondary-alt: #282a2b;
-    --background-modifier-border: #41535b;
+    --background-modifier-border: #41535B;
     --background-modifier-form-field: rgba(0, 0, 0, 0.3);
     --background-modifier-form-field-highlighted: rgba(0, 0, 0, 0.22);
     --background-modifier-box-shadow: rgba(0, 0, 0, 0.3);
     --background-modifier-success: #9fca56;
-    --background-modifier-error: #cd3f45;
+    --background-modifier-error: #Cd3f45;
     --background-modifier-error-rgb: 205, 63, 69;
     /* --background-modifier-error-hover: #470000; */
     --background-modifier-cover: rgba(0, 0, 0, 0.8);
@@ -26,9 +26,9 @@
     --text-normal: #ffffff;
     --text-muted: #d6d6d6;
     --text-muted-rgb: 214, 214, 214;
-    --text-faint: #41535b;
+    --text-faint: #41535B;
     --text-error: #a074c4;
-    --text-error-hover: #cd3f45;
+    --text-error-hover: #Cd3f45;
     --text-highlight-bg: rgba(255, 255, 0, 0.4);
     --text-highlight-bg-active: rgba(255, 128, 0, 0.4);
     --text-selection: rgba(23, 48, 77, 0.99);
@@ -107,4 +107,12 @@
 
 .suggestion-item.is-selected {
     background-color: var(--background-primary-alt);
+}
+
+.markdown-preview-view.is-readable-line-width .markdown-preview-sizer {
+    max-width: 900px;
+}
+
+.markdown-source-view.is-readable-line-width .CodeMirror {
+    max-width: 900px;
 }
