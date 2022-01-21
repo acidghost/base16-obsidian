@@ -114,6 +114,7 @@
 }
 
 .markdown-source-view.is-readable-line-width .CodeMirror,
+.markdown-source-view.mod-cm6.is-line-wrap.is-readable-line-width .cm-content,
 .markdown-source-view.mod-cm6.is-line-wrap.is-readable-line-width .cm-line:not(.HyperMD-table-row),
 .markdown-source-view.mod-cm6.is-readable-line-width:not(.is-rtl) .cm-contentContainer {
     max-width: 900px;
